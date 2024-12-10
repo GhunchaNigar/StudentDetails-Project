@@ -1,3 +1,16 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+import { LoginComponent } from './login/login.component';
+import { authGuardGuard } from './auth-guard.guard';
+export const routes: Routes = [
+  {
+    path: 'Login',
+    component: LoginComponent,
+  },
+  {
+    path: 'dashboard',
+  loadChildren: ()=> import('./dashboard/dashboard.module').then(m=>m.DashboardModule),
+    canMatch: [authGuardGuard]
+  },
+
+];
