@@ -1,0 +1,54 @@
+
+.students-record {
+	padding: 20px;
+	background: #c8cfd6;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(112, 109, 109, 0.1);
+}
+
+.search-container {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 15px;
+}
+
+.students-record__record-table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	background: #615454;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.students-record__record-table th,
+.students-record__record-table td {
+	padding: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+.students-record__record-table th {
+	background:#1d1e2c;
+	color: white;
+	
+}
+
+.students-record__record-table tr:hover {
+	background: #f1f1f1;
+}
+
+.student-image {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.no-records {
+	text-align: center;
+	padding: 20px;
+	color: #6c757d;
+	font-style: italic;
+}

@@ -154,8 +154,8 @@
 </ng-template>
 
 <div class="add-btn-container">
-  <button class="add-btn-container__action-button btn btn-success" (click)="open(studentsForm)"> Add Students</button>
-  <button class="add-btn-container__action-button btn btn-light" [disabled]="checkIfSelected()" (click)="onOpenViewForm(studentsForm)">View Students</button>
-  <button class="add-btn-container__action-button btn btn-danger" [disabled]="checkIfSelected()" (click)="onDeletedRecord(confirmDeleteModal)">Delete Students</button>
-  <button class="add-btn-container__action-button btn btn-info" [disabled]="checkIfSelected()"(click)="clearSelection()">Clear Selection</button>
+  <button class="add-btn-container__action-button btn btn-secondary" (click)="open(studentsForm)"> Add Students</button>
+  <button class="add-btn-container__action-button btn btn-secondary" [disabled]="checkIfSelected()" (click)="onOpenViewForm(studentsForm)">View Students</button>
+  <button class="add-btn-container__action-button btn btn-secondary" [disabled]="checkIfSelected()" (click)="onDeletedRecord(confirmDeleteModal)">Delete Students</button>
+  <button class="add-btn-container__action-button btn btn-secondary" [disabled]="checkIfSelected()"(click)="clearSelection()">Clear Selection</button>
 </div>

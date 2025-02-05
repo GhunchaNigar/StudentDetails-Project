@@ -4,12 +4,16 @@
     align-items: center;
     gap: 16px;
     padding: 16px;
+    background-color: #1d1e2c;
+    border-radius: 25px;
+    color: #f0f0f0;
 }
 
 .subjects {
     display: flex;
     flex-direction: row;
     gap: 16px;
+    
 }
 
 .style-btn {
